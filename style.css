@@ -77,4 +77,50 @@ footer {
 
 }
 
+@media screen and (max-width: 768px) {
+    .div1 {
+        height: 12vmin;
+    }
+
+    .div1 h1 {
+        font-size: 4.5vmin;
+    }
+
+    .ele {
+        flex-direction: column;
+        gap: 3vmin;
+    }
+
+    .box img {
+        height: 120px;
+        width: 120px;
+    }
+
+    .score-board {
+        flex-direction: column;
+        gap: 2vmin;
+        font-size: 3vmin;
+    }
+
+    #user-score, #comp-score {
+        font-size: 3rem;
+    }
+
+    .msg-container {
+        margin-top: 3rem;
+        font-size: 3.5vmin;
+    }
+
+    #msg {
+        font-size: 1.5rem;
+        padding: 0.7rem 1.2rem;
+    }
+
+    footer {
+        font-size: 1rem;
+        margin-top: 3rem;
+    }
+}
+
+
 
