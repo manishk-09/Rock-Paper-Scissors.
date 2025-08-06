@@ -97,9 +97,13 @@ footer {
     }
 
     .score-board {
-        flex-direction: column;
-        gap: 2vmin;
+        flex-direction: row; /* keep side-by-side on mobile too */
+        gap: 3vmin;
         font-size: 3vmin;
+    }
+
+    .score {
+        text-align: center;
     }
 
     #user-score, #comp-score {
@@ -121,6 +125,4 @@ footer {
         margin-top: 3rem;
     }
 }
-
-
 
